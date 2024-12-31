@@ -1,0 +1,16 @@
+.heart {
+  display: inline-block;
+  color: red;
+  font-size: 20px;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+}
